@@ -7,7 +7,7 @@ $newfile = 'example.txt.bak';
 if (!copy($file, $newfile)) {
 	echo "failed to copy $file...\n";
 }
-
+ 
 ?>
 
 #delete file
