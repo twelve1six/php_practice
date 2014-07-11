@@ -60,13 +60,14 @@ if (is_writable($filename)) {
 ?>
 
 #check the file exists or not
+
+<?php
 $filename = 'readme.txt';
 if(file_exists($filename)) {
 	echo "The file $filename exists";
 } else {
 	echo "The file $filename is not exists";
 }
-
 ?>
 
 
